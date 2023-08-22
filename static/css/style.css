@@ -30,19 +30,16 @@ main {
     flex-wrap: nowrap;
 }
 
-ul nav{
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;    
-}
-
-li nav{
     float: left;
 }
   
-li a nav {
+nav a {
     display: block;
     color: white;
     text-align: center;
@@ -50,7 +47,7 @@ li a nav {
     text-decoration: none;
 }
   
-li a:hover nav {
+nav a:hover {
     background-color:crimson ;
 }
 
