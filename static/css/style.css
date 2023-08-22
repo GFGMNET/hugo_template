@@ -33,13 +33,13 @@ main {
 
 .mrn {
     float: right;
-    width: 10%;
+    width: 15%;
 }
 .wasp {
     width:90%;
 }
 .content {
-    width:90%;
+    width:85%;
     float: left;
 }
 
@@ -59,3 +59,11 @@ main {
     font-size: 10px;
     border-radius: 12px;
   }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
