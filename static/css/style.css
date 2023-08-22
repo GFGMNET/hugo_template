@@ -87,3 +87,18 @@ main {
         #cookie-notice a {position: relative; bottom: 4px;}
         #cookie-notice {left: 0px;}
     }
+
+
+    .sticky {
+        background: #eee;
+        height: 10rem;
+        width: 10rem;
+        flex-grow: 1;
+        flex-basis: 300px;
+        position: sticky;
+        top: 2rem;
+        /* center the text */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
