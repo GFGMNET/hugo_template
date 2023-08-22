@@ -1,11 +1,11 @@
 {{ define "main" }}
-
+{{- $image := resources.Get .Params.image -}}
 <div class="mrn">
     {{ partial "toc.html" . }}
 </div>
 <div class="content">
     <div class="card" >
-        <img src="..." class="card-img-top" alt="...">
+        <img src="{{ ($image.Fill "200x200 q100 Center").RelPermalink }} class="card-img-top" alt="...">
         <div class="card-body">
             <h1 class="card-title">{{ .Title }}</h1>         
                 {{ partial "metadata.html" . }}
@@ -16,4 +16,3 @@
     </div>
 </div>
 {{ end }}
-
