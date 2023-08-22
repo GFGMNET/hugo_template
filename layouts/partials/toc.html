@@ -1,5 +1,5 @@
 {{ $page := . }}                       <!--save current page-->
-{{ $page_toc_label := .Params.sidebar.text_contents_label | default "On this page" }}
+{{ $page_toc_label := .Params.sidebar.text_contents_label | default "Content" }}
 <!--check for headers-->
 {{ $headers := findRE "<h[2].*>" $page.Content }}
 {{- $has_headers := ge (len $headers) 1 -}}
