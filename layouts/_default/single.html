@@ -1,13 +1,19 @@
 {{ define "main" }}
 
-    <div class="mrn">
-{{ partial "toc.html" . }}
+<div class="mrn">
+    {{ partial "toc.html" . }}
 </div>
 <div class="content">
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h1 class="card-title">{{ .Title }}</h1>         
+                {{ partial "metadata.html" . }}
+                <div class="card-text">
+                    {{ .Content }}
+                </div>
+        </div>
+    </div>
 </div>
-
 {{ end }}
+
