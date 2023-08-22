@@ -30,35 +30,7 @@ main {
     flex-wrap: nowrap;
 }
 
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;    
-    float: left;
-}
-  
-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-nav a:hover {
-    background-color:crimson ;
-}
 
-
-.copyright {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    float: right;
-}
 .mrn {
     float: right;
     width: 10%;
@@ -71,12 +43,6 @@ nav a:hover {
     float: left;
 }
 
-.company {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-}
 
 .wsp {
     height: 70%;
