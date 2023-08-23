@@ -34,7 +34,8 @@ main {
 .mrn {
     float: right;
     width: 15%;
-    position: relative;
+    position: sticky;
+    top: 50px;
 }
 .wasp {
     width:90%;
